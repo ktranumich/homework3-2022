@@ -157,19 +157,23 @@ img{
 }
 
 .about-image, .about{
-  grid-row-start:2;
+  grid-row-start:1;
 }
 
 .clients-image, .clients{
-  grid-row-start:3;
+  grid-row-start:2;
 }
 
 .method-image, .method{
-  grid-row-start:4;
+  grid-row-start:3;
 }
 
 .contact-image, .contact{
-  grid-row-start:5;
+  grid-row-start:4;
+}
+
+.intro{
+  background-color: blue;
 }
 
 @media screen and (min-width: 700px){
@@ -185,7 +189,6 @@ img{
     margin-right:0;
   }
 
-  
   /* Requirements 12-15 here: */
   a.skip:focus{
     position: fixed;
@@ -210,9 +213,6 @@ img{
   }
 
 }
-
-
-
 
 
 
